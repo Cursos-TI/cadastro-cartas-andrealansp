@@ -11,8 +11,11 @@ int main() {
   int populacao1, populacao2, quantidade_pontos_turisticos1,quantidade_pontos_turisticos2;
   float area1, pib1, area2, pib2;
 
+  //-------------------------------------------------------------
+
   // Instrução para cadastro da carta
   printf("SUPER TRUNFO\n");
+  printf("\n Cadastre os dados das cartas utilizada no SUPER TRUNFO!\n");
   printf("\n");
   printf("---------------------------------------\n");
   printf("\n");
@@ -42,6 +45,25 @@ int main() {
   scanf(" %i", &quantidade_pontos_turisticos1);
   printf("\n");
 
+  // Exibindo dados cadastrados da primeira cidade.
+  printf("\n");
+  printf("---------------------------------------\n");
+  printf("\n");
+
+  printf("\nCarta1:\n");
+  printf("\n ----------- \n"); 
+  printf("Nome da Cidade: %s", nome_cidade1);
+  printf("\n ----------- \n");  
+  printf("Código da Carta: %s", cod_carta1);
+  printf("\n ----------- \n");  
+  printf("Poulação: %i", populacao1);
+  printf("\n ----------- \n");  
+  printf("Área: %.2f", area1);
+  printf("\n ----------- \n");  
+  printf("PIB: %.2f", pib1);
+  printf("\n ----------- \n");  
+  printf("Quantidade de Pontos Turísticos: %i \n", quantidade_pontos_turisticos1);
+
   printf("\n");
   printf("---------------------------------------\n");
   printf("\n");
@@ -70,27 +92,6 @@ int main() {
   printf("Infome a quantidade de pontos turísticos: ");
   scanf(" %i", &quantidade_pontos_turisticos2);
   printf("\n");
-
-  printf("\n");
-  printf("---------------------------------------\n");
-  printf("\n");
-
-  // Exibindo os dados cadastrados
-  printf("Dados Cadastrados\n");
-
-  printf("\nCarta1:\n");
-  printf("\n ----------- \n"); 
-  printf("Nome da Cidade: %s", nome_cidade1);
-  printf("\n ----------- \n");  
-  printf("Código da Carta: %s", cod_carta1);
-  printf("\n ----------- \n");  
-  printf("Poulação: %i", populacao1);
-  printf("\n ----------- \n");  
-  printf("Área: %.2f", area1);
-  printf("\n ----------- \n");  
-  printf("PIB: %.2f", pib1);
-  printf("\n ----------- \n");  
-  printf("Quantidade de Pontos Turísticos: %i \n", quantidade_pontos_turisticos1);
   
   printf("\n");
   printf("---------------------------------------\n");
